@@ -92,12 +92,12 @@ app.Run();
 // Request Models
 public class DepositRequest
 {
-    public string? AccountNumber { get; set; }
+    public string AccountNumber { get; set; }
     public decimal Amount { get; set; }
 }
 
 public class WithdrawRequest
 {
-    public string? AccountNumber { get; set; }
+    public string AccountNumber { get; set; }
     public decimal Amount { get; set; }
 }
