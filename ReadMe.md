@@ -51,7 +51,7 @@ POST /deposit
 Request Body:
 
 json
-Copy
+
 {
     "accountNumber": "123456789",
     "amount": 200
